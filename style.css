@@ -1,0 +1,38 @@
+body {
+  margin: 0 10%;
+  background-image: url(https://st3.depositphotos.com/3213441/17694/v/450/depositphotos_176946408-stock-illustration-money-is-a-seamless-pattern.jpg);
+  font-family: "Pacifico", cursive;
+}
+
+.page {
+  padding: 10px;
+  background: white;
+  text-align: center;
+  box-shadow: 0px 0px 10px 10px aliceblue;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  box-shadow: 0px 0px 8px 8px aliceblue;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.col + .col {
+  margin-left: 10px;
+}
+
+.img-logo {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.footer {
+  text-align: center;
+}
